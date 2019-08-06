@@ -1,5 +1,12 @@
 $bg-color: yellow;
+
 $color: red;
+
+$header-button-bg:red;
+$header-button-bg-hover:blue;
+$header-button-color:white;
+$header-button-font-size: 18px; 
+
 @font-face {
     font-family: robotoBold;
       src: url('../fonts/Roboto/Roboto-Bold.ttf');
@@ -7,6 +14,12 @@ $color: red;
 header{
     font-size: 15px;
     color:$color;
+    
+    button{
+        color:$header-button-color;
+        background-color:$header-button-bg;
+        font-size: $header-button-font-size;
+    }
 }
 main{
     font-family: robotoBold;
