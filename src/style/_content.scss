@@ -1,0 +1,10 @@
+content {
+  button {
+    color: $button-color;
+    background-color: $button-bg;
+  }
+
+  button:hover {
+    background-color: $button-bg-hover;
+  }
+}

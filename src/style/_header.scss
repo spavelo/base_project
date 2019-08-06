@@ -1,0 +1,13 @@
+header {
+  font-size: 15px;
+
+  button {
+    color: $button-color;
+    background-color: $button-bg;
+    font-size: $font-large;
+  }
+
+  button:hover {
+    background-color: $button-bg-hover;
+  }
+}

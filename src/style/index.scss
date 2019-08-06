@@ -1,70 +1,18 @@
-$bg-color: yellow;
-
-$color: red;
-
-$header-button-bg:red;
-$header-button-bg-hover:blue;
-$header-button-color:white;
-$header-button-font-size: 18px; 
-
-$main-button-bg: greenyellow;
-$main-button-color: purple;
-$main-button-font-size:15px;
-$main-button-bg-hover:black;
-
-$footer-text-color:brown;
-$footer-font-size:20px;
+@import 'variables';
+@import 'variables';
+@import 'fonts';
+@import 'base';
+@import 'header';
+@import 'content';
+@import 'footer';
 
 
-
-
-@font-face {
-    font-family: robotoBold;
-      src: url('../fonts/Roboto/Roboto-Bold.ttf');
-  }
-header{
-    font-size: 15px;
-    color:$color;
-    
-    button{
-        color:$header-button-color;
-        background-color:$header-button-bg;
-        font-size: $header-button-font-size;
-    }
-    button:hover{
-        background-color:$header-button-bg-hover;
-    }
-}
-main{
-    font-family: robotoBold;
-
-    button{
-        color:$main-button-bg ;
-        background-color:$main-button-color ;
-        font-size:$main-button-font-size ;
-    }
-
-    button:hover{
-        background-color:$main-button-bg-hover;
-    }
-}
-footer{
-    background: $bg-color;
-    text-align: center;
-    font-size: $footer-font-size;
-    color:$footer-text-color;
-}
 
 
 // $bg-color: #de5c57;
 // $tr-bg-color-hover:#e02e2e;
 // $tr-border-left-color:#d5d5d5;
 // $font-size: 22px;
-
-// @font-face {
-//     font-family: robotoLight;
-//     src: url('../fonts/Roboto/Roboto-Light.ttf');
-// }
 
 // #form {
 //     margin: 5px auto 20px;
