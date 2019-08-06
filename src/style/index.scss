@@ -12,6 +12,11 @@ $main-button-color: purple;
 $main-button-font-size:15px;
 $main-button-bg-hover:black;
 
+$footer-text-color:brown;
+$footer-font-size:20px;
+
+
+
 
 @font-face {
     font-family: robotoBold;
@@ -45,6 +50,9 @@ main{
 }
 footer{
     background: $bg-color;
+    text-align: center;
+    font-size: $footer-font-size;
+    color:$footer-text-color;
 }
 
 
