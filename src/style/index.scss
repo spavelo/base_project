@@ -7,6 +7,12 @@ $header-button-bg-hover:blue;
 $header-button-color:white;
 $header-button-font-size: 18px; 
 
+$main-button-bg: greenyellow;
+$main-button-color: purple;
+$main-button-font-size:15px;
+$main-button-bg-hover:black;
+
+
 @font-face {
     font-family: robotoBold;
       src: url('../fonts/Roboto/Roboto-Bold.ttf');
@@ -20,9 +26,22 @@ header{
         background-color:$header-button-bg;
         font-size: $header-button-font-size;
     }
+    button:hover{
+        background-color:$header-button-bg-hover;
+    }
 }
 main{
     font-family: robotoBold;
+
+    button{
+        color:$main-button-bg ;
+        background-color:$main-button-color ;
+        font-size:$main-button-font-size ;
+    }
+
+    button:hover{
+        background-color:$main-button-bg-hover;
+    }
 }
 footer{
     background: $bg-color;
