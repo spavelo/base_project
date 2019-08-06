@@ -1,11 +1,26 @@
+$bg-color: yellow;
+$color: red;
+@font-face {
+    font-family: robotoBold;
+      src: url('../fonts/Roboto/Roboto-Bold.ttf');
+  }
+header{
+    font-size: 15px;
+    color:$color;
+}
+main{
+    font-family: robotoBold;
+}
+footer{
+    background: $bg-color;
+}
+
+
 // $bg-color: #de5c57;
 // $tr-bg-color-hover:#e02e2e;
 // $tr-border-left-color:#d5d5d5;
 // $font-size: 22px;
-// @font-face {
-//     font-family: robotoBold;
-//     src: url('../fonts/Roboto/Roboto-Bold.ttf');
-// }
+
 // @font-face {
 //     font-family: robotoLight;
 //     src: url('../fonts/Roboto/Roboto-Light.ttf');
