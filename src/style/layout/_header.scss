@@ -1,3 +1,18 @@
 .header {
 
 }
+
+.logo{
+  width: 175px;
+  height: 28px;
+  background-image: url('../../image/Indo_Tourism.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navigation{
+  &__link{
+color: red;
+text-decoration: none;
+  }
+}
