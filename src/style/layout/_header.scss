@@ -5,6 +5,7 @@
   min-width: 980px;
   padding: 0 10px;
   display: flex;
+  align-items: center;
 }
 
 .logo{
@@ -13,11 +14,22 @@
   background-image: url('../../image/Indo_Tourism.png');
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 20px 0;
+  margin-left: 144px;
 }
 
 .navigation{
+  margin-left: 432px;
+  margin-top: 30px;
+  margin-bottom: 21px;
   &__link{
-color: red;
-text-decoration: none;
+    text-decoration: none;
+    color: #676767;
+    font-family: "Segoe WPN - Semi Light";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+
+
   }
 }
