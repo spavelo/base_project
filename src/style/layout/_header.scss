@@ -32,4 +32,12 @@
 
 
   }
+  .navigation__link--active, .navigation__link:hover {
+    width: 98px;
+    height: 31px;
+    box-shadow: inset 0 1px 0 rgba(136, 211, 251, 0.75);
+    border: 1px solid #1784d1;
+    background-image: linear-gradient(to top, #1f84e7 0%, #37b3f8 100%);
+    color:#ffffff;
+  }
 }
