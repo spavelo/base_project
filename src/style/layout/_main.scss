@@ -1,3 +1,14 @@
 .main{
-
+  width: 100%;
+  min-height: 1100px;
+  background-color: #ececec;
+  background-image: url('../../image/beach.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 532px;
+}
+.containerMain{
+  display: flex;
+  
 }
