@@ -44,7 +44,7 @@
   font-weight: 700;
 }
 .subMain{
-  height: 245px;
+  min-height: 245px;
   width: 481px;
   margin-top: 69px;
   border-bottom: solid 7px  #51c03d;
@@ -64,6 +64,9 @@
 .cards{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .cardsItem{
   display: flex;
