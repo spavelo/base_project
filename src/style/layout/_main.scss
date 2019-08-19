@@ -44,8 +44,8 @@
   font-weight: 700;
 }
 .subMain{
-  min-height: 245px;
-  min-width: 481px;
+  height: 245px;
+  width: 481px;
   margin-top: 69px;
   border-bottom: solid 7px  #51c03d;
   display: flex;
@@ -61,3 +61,33 @@
   font-size: 22px;
   font-weight: 300;
 }
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardsItem{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  &__img{
+    width: 79px;
+    height: 48px;
+    background-size: 100%;
+    background-position: center;
+
+  }
+  &__name{
+    color: #929292;
+    font-family: "Segoe WP";
+    font-size: 14px;
+    font-weight: 300;
+    height: 12px;
+  }
+  &__img--azheekal{
+    background-image: url('../../image/Azheekal.png');
+  }
+  
+}
+// .cardsItem__img--azheekal{
+//   background-image: url('../../image/Azheekal.png');
+// }
