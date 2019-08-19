@@ -5,7 +5,7 @@
   min-width: 980px;
   padding: 0 10px;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .logo{
@@ -19,7 +19,7 @@
 }
 
 .navigation{
-  margin-left: 432px;
+  margin-right: 152px;
   margin-top: 30px;
   margin-bottom: 21px;
   &__link{
