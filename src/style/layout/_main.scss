@@ -153,6 +153,8 @@
     height: 133px;
     border-radius: 50%;
     background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   &__title{
     color: #7e7c7c;
@@ -162,5 +164,17 @@
     line-height: 34px;
     text-align: center;
     margin-top: 18px;
+  }
+  &__card--sites{
+    background-image: url('../../image/planet.png');
+  }
+  &__card--basket{
+    background-image: url('../../image/basket.png');
+  }
+  &__card--foto{
+    background-image: url('../../image/fotoapp.png');
+  }
+  &__card--loupe{
+    background-image: url('../../image/loupe.png');
   }
 }
