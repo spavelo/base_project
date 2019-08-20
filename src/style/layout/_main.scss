@@ -140,9 +140,27 @@
 }
 .guide{
   width: 756px;
-  height: 133px;
+  height: 172px;
   margin-top: 53px;
   display: flex;
   justify-content: space-between;
 }
-
+.guideItem{
+  display: flex;
+  flex-direction: column;
+  &__card{
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  &__title{
+    color: #7e7c7c;
+    font-family: "Segoe WP";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 18px;
+  }
+}
