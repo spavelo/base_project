@@ -8,11 +8,16 @@ module.exports = {
     publicPath: '/dist',
     filename: 'app.js'
   },
+  devServer: {
+    contentBase: [path.resolve(__dirname)],
+    watchContentBase: true
+  },
   watch: true,
   module: {
     rules: [
       {
-        test: /\.scss$/, use: [
+        test: /\.scss$/,
+        use: [
           'style-loader',
           'css-loader',
           'sass-loader'
@@ -27,6 +32,13 @@ module.exports = {
           },
         },
       },
+      {
+test: /\.(ttf|eot|svg|gif|png)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+            // include: SRC,
+            use: [{
+                loader: 'file-loader'
+            }]
+      }
     ]
   }
 }

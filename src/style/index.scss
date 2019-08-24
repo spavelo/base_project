@@ -1,65 +1,14 @@
-$bg-color: yellow;
-$color: red;
-@font-face {
-    font-family: robotoBold;
-      src: url('../fonts/Roboto/Roboto-Bold.ttf');
-  }
-header{
-    font-size: 15px;
-    color:$color;
+@import 'abstracts/variables';
+
+@import 'base/reset';
+@import 'base/fonts';
+
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/main';
+@import 'layout/footer';
+
+body{
+    background-color: #ececec;
+    margin: 0;
 }
-main{
-    font-family: robotoBold;
-}
-footer{
-    background: $bg-color;
-}
-
-
-// $bg-color: #de5c57;
-// $tr-bg-color-hover:#e02e2e;
-// $tr-border-left-color:#d5d5d5;
-// $font-size: 22px;
-
-// @font-face {
-//     font-family: robotoLight;
-//     src: url('../fonts/Roboto/Roboto-Light.ttf');
-// }
-
-// #form {
-//     margin: 5px auto 20px;
-//     input {
-//         font-size: $font-size;
-//         font-family: robotoLight;
-//     }
-//     input[type="submit"] {
-//         background-color: $bg-color;
-//         outline: none;
-//         font-family: robotoLight;
-//         border: 1px solid;
-//     }
-// }
-// table {
-//     border-collapse: collapse;
-//     thead {
-//         font-size: $font-size;
-//         background-color: $bg-color;
-//         text-align: center;
-//         font-family: robotoBold;
-
-//         td:hover {
-//             cursor: pointer;
-//             outline: solid 1px;
-//         }
-//     }
-//     tbody {
-//         tr:hover {
-//             background-color: $tr-bg-color-hover;
-//         }
-//         td {
-//             padding: 10px;
-//             font-family: robotoLight;
-//             border-left: solid 1px $tr-border-left-color;
-//         }
-//     }
-// }
