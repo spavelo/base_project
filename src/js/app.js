@@ -1,1 +1,1 @@
-require("../style/index.scss");
+import '../style/index.scss';
