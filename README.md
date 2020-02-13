@@ -1,10 +1,10 @@
-# Travel
+# Base Project
 
 
-# git pull
+# git pull        // 
 
 
-# npm i
+# npm i           // install dependencies 
 
 
 # npm start       // to work with watch option
